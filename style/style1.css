@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+#pHead{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+header{
+    background: linear-gradient(to left, black, rgba(38,36,86) 50%, rgba(38,36,86) 25%, black 100%);
+    border: 0%;
+}
+nav ul{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+}
+nav ul li  :hover{
+    color: white;
+    border-color: black !important;
+}
+
+#myTab.nav.nav-tabs{
+    border-color: black;
+}
+.nav-tabs .nav-link:active, .nav-tabs .nav-link.active {
+    background-color: black !important;
+    color: white !important;
+    border-color: black !important;
+}
+.nav-tabs .nav-link.hover{
+    border-color: black !important;
+}
+.tab-content{
+    display: grid;
+    justify-content: center;
+    margin-top:  2%;
+}
+canvas{
+    margin-top: 2%;
+    border: 2px solid rgb(151, 149, 149);
+}
+.title{
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+.grid {
+  border: 1px solid;
+  height: 370px;
+  width: 465px;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.grid div {
+  height: 61px;
+  width: 66px;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.player-two {
+  background-color: blue;
+  border-radius: 10px;
+}
+#b1, #b2, #b3, #b4, #b5,#b6, #b7, #b8, #b9 {
+        width: 160px;
+        height: 120px;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+        background-color: black;
+    }
+#b1, #b2, #b3{
+    margin-top: 2%;
+}
+#print {
+    color: rgb(0, 0, 0);
+    font-size: 20.8px;
+    font-weight: bold;
+    text-align: center;
+}
+.all{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+}
+body{
+    background-image: url(../pics/fond11.jpg)!important;
+    background-size:contain;
+    overflow-y: scroll;
+}
+#footer{
+    background-color: rgba(38,36,86);
+    margin-top: 2%; 
+    width: 100%;
+    position:absolute;
+}
+@media screen and (max-width:450px){
+    canvas{
+        width: 300px;
+        height: 300px;
+    }
+    .grid{
+        width: 348px;
+        height: 277px;
+    }
+    .grid div{
+        width: 49px;
+        height: 45px;
+    }
+    footer{
+        position: fixed;
+        bottom: 0px;
+    }
+    #b1, #b2, #b3, #b4, #b5,#b6, #b7, #b8, #b9{
+        width: 120px;
+        height: 90px;
+    }
+}
