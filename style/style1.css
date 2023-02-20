@@ -116,6 +116,9 @@ body{
     width: 100%;
     position:absolute;
 }
+#tfooter{
+    height: 3px;
+}
 @media screen and (max-width:520px){
     canvas{
         width: 300px;
